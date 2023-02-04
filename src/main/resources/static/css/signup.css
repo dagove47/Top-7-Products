@@ -1,9 +1,82 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : Feb 2, 2023, 9:53:43 PM
-    Author     : dagov
-*/
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/shopping.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+}
+.formTitle{
+    color: #20b2aa;
+    font-size: 4rem;
+}
+.form {
+    width: 350px;
+    font-size: 20px;
+}
+.txt-field {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+}
+.txt-field  label{
+    padding: 10px 5px;
+}
+.txt-field  input{
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    border: 2px solid #20b2aa;
+    padding: 5px;
+}
+.containerBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 40px 0 0 0;
+}
+.formBtn {
+    width: 150px;
+    background: none;
+    padding: 5px 10px;
+    margin: 0 0 30px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 5px solid #20b2aa;
+}
+.formBtn:hover {
+    background: #16D8D5;
+}
 
+.checkbox {
+    /*margin: 20px 0 0 0;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.checkbox input {
+    height: 15px;
+    width: 15px;
+}
