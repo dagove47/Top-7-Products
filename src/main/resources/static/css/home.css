@@ -1,9 +1,58 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : Feb 2, 2023, 9:53:08 PM
-    Author     : dagov
-*/
 
+
+
+
+.homeSect1 {
+    height: 100%;
+    width: 100%;
+}
+
+.homeArticle1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.homeArticle1_left {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.homeArticle1_left h1 {
+    font-size: 4rem;
+}
+
+.homeArticle1_left h1 span {
+    color: #20b2aa;
+}
+
+.homeArticle1_left h2 {
+    font-size: 3rem;
+}
+
+.home-image1 {
+    max-height: 750px;
+    margin: 25px;
+}
+
+.access {
+    position: absolute;
+    bottom: 0;
+    padding: 0 0 50px 0;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.access a {
+    margin: 0 100px 0 0;
+    font-size: 2rem;
+}
+
+.access a:hover {
+    color: #16D8D5;
+}
