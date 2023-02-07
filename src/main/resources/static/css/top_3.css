@@ -1,9 +1,71 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : Feb 2, 2023, 9:52:10 PM
-    Author     : dagov
-*/
 
+.top7Sect {
+    height: 100%;
+    width: 100%;
+}
+
+.top7Article1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.top7Article1_right {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.top7Article1_right h1 {
+    font-size: 4rem;
+}
+
+.top7Article1_right h1 span {
+    color: #20b2aa;
+}
+
+.top7Article1_right h2 {
+    font-size: 2.5rem;
+}
+
+.top7-image1 {
+    max-height: 750px;
+    margin: 25px;
+}
+
+.top7Article2 {
+    background: #121314;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature_Sec:nth-child(1) {
+    border-bottom: 2px solid #fff5;
+}
+
+.feature_Sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 75px 0;
+}
+
+.feature {
+    width: 30%;
+    padding: 25px;
+}
+
+.featureBorder {
+    border-right: 2px solid #fff5;
+}
